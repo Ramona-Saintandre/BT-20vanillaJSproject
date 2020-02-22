@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+
+*{
+   box-sizing: border-box;  /*this is so that nothing effects the body of the element */
+
+}
+body{
+  background-color: rgb(214, 212, 209);
+  font-family: 'Open Sans',sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
