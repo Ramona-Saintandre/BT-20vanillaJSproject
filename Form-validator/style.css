@@ -50,3 +50,21 @@ body{
     padding: 10px;
     font-size: 14px;
   }
+
+  .form-control input:focus{
+    outline: 0;
+    border-color: #777;
+  }
+  
+  .form-control.success input{
+    border-color:#2ecc71;
+  }
+
+  .form-control.error input{
+    border-color:red;
+      }
+
+      .form-control small{
+       color:#2ecc71;
+        
+      }
