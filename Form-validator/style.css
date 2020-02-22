@@ -77,3 +77,7 @@ body{
        visibility: hidden;
         
       }
+
+      .form-control.error small{
+        visibility: visible;
+      }
