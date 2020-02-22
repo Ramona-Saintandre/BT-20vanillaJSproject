@@ -35,3 +35,10 @@ body{
     padding-bottom: 20px;
     position: relative;
   }
+
+  .form-control label{
+    color: #777;
+     display: block;  /*labels are set inline by default, so changing it block to align */
+     margin-bottom: 5px;
+  }
+  
