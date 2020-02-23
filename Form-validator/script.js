@@ -23,9 +23,33 @@ form.addEventListener('submit',function(e){
   e.preventDefault();
     if(username.value === ''){
     showError(username, "Username is required");
-
     }else{
       showSuccess(username);
     }
+    if(username.value === ''){
+      showError(username, "Username is required");
+      }else{
+        showSuccess(username);
+      }
+      if(username.value === ''){
+        showError(username, "Username is required");
+        }else{
+          showSuccess(username);
+        }
+        if(username.value === ''){
+          showError(email, "Email is required");
+          }else{
+            showSuccess(email);
+          }
+          if(password.value === ''){
+            showError(password, "Password is required");
+            }else{
+              showSuccess(password);
+            }
+            if(password2.value === ''){
+              showError(password2, "Username is required");
+              }else{
+                showSuccess(password2);
+              }
 
 })
