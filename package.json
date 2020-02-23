@@ -1,0 +1,23 @@
+{
+  "name": "bt-20vanillajsproject",
+  "version": "1.0.0",
+  "description": "first project with the 20vanillaJS",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^13.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramona-Saintandre/BT-20vanillaJSproject.git"
+  },
+  "author": "Ramona Saintandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramona-Saintandre/BT-20vanillaJSproject/issues"
+  },
+  "homepage": "https://github.com/Ramona-Saintandre/BT-20vanillaJSproject#readme"
+}
