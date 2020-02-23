@@ -32,10 +32,22 @@ function checkEmail(input) {
 
 // REFACTORED CODE
 //Check required field
-function checkRequired(inputArr){
-inputArr.forEach(input);
-console.log(input);
+function checkRequired(inputArr) {
+  inputArr.forEach(function(input) {
+    if (input.value.trim() === '') {
+      showError(input, `${getFieldName(input)} is required`);
+    } else {
+      showSuccess(input);
+    }
+  });
 }
+
+
+// Get fieldname
+function getFieldName(input) {
+  return input.id.charAt(0).toUpperCase() + input.id.slice(1);
+}
+
 //Event listners 
 form.addEventListener('submit',function(e){
   e.preventDefault();
