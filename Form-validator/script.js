@@ -11,6 +11,13 @@ function showError (input, message){
   const small =formControl.querySelector('small');
   small.innerText = message;
 }
+
+// Show success 
+function showSuccess(input, message){
+  const formControl = input.parentElement;
+  formControl.className = 'form-control success';
+ }
+
 // Eventlisteners 
 form.addEventListener('submit',function(e){
   e.preventDefault();
