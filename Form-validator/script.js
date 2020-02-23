@@ -12,7 +12,7 @@ function showError(input, message) {
   small.innerText = message;
 }
 
-// Show success outline
+// Show success outline on input box 
 function showSuccess(input) {
   const formControl = input.parentElement;
   formControl.className = 'form-control success';
@@ -31,7 +31,7 @@ function checkEmail(input) {
 }
 
 // REFACTORED CODE
-//Check required field
+//Check the required field
 function checkRequired(inputArr) {
   inputArr.forEach(function(input) {
     if (input.value.trim() === '') {
@@ -78,6 +78,7 @@ form.addEventListener('submit',function(e){
 });
 
 
+// All the code below works, just refactored it above 
 
 //  Eventlisteners 
 //  form.addEventListener('submit', function (e) {
