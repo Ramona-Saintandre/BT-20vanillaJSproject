@@ -6,7 +6,9 @@
   "dependencies": {
     "node": "^13.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@ibbatta/readme-generator": "^0.1.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
